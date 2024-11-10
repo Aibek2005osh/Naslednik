@@ -16,10 +16,19 @@ public class Singer extends Person {
 
     public void setBandName(String bandName) {
         this.bandName = bandName;
+
+    }
+    public String singermot(){
+        return getName() +" ырдай алат🗣🎶";
+
+
+    }
+    public String singermer2(){
+        return getName() + " Гитара черте алат👨‍🎤🎸";
     }
     @Override
     public String toString() {
-        return  " "  + super.personmetod() +   " band name : " +bandName +"\n"+ perlearn() + " \n" + perWalk() + "\n" + perEat() + getName()+"gutariing";
+        return  " "  + super.personmetod() +   " BandName : " +bandName +"\n"+ perlearn() + " \n" + perWalk() + "\n" + perEat() + "\n"+singermot() +"\n"+singermer2();
 
     }
 }

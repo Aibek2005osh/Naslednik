@@ -30,17 +30,17 @@ public class Person {
     }
 
     public String perlearn() {
-        return name + " bilim alat  ";
+        return name + " bilim alat 👨🏻‍🏫 ";
 
     }
 
     public String perWalk() {
-        return (name + " basa alat ");
+        return (name + " basa alat 🚶🏻‍♂️‍➡️ ");
 
     }
 
     public String perEat() {
-        return (name + " tamaktanat ");
+        return (name + " tamaktanat🍔🍕 ");
     }
 
     public String personmetod() {
@@ -49,6 +49,6 @@ public class Person {
 
 
     public String toString() {
-        return  personmetod() +"\n"+ perlearn() + " \n" + perWalk() + "\n" + perEat();
+        return  personmetod() ;
     }
 }

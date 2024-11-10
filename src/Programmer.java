@@ -19,12 +19,13 @@ public class Programmer extends Person {
     }
 
     public String prog() {
-        return  super.getName() + " kod jaza alat";
+        return  super.getName() + " kod jaza alat🧑🏻‍💻";
     }
+
 
     @Override
     public String toString() {
-        return  " "  + super.personmetod() +   " compapyName : " +companyName +"\n"+ perlearn() + " \n" + perWalk() + "\n" + perEat() + prog();
+        return  " "  + super.personmetod() +   " compapyName : " +companyName +"\n"+ perlearn() + " \n" + perWalk() + "\n" + perEat() +"\n"+ prog();
 
     }
 }
